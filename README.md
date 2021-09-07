@@ -28,8 +28,8 @@ Python &amp; Raspebrry Pi base player for SONOS triggered by RFID-Chips
 ### RFID einrichten
 
 - Ausführen  
-`sudo apt-get install python3-pip python3-dev build-essential`   
-sudo pip install RPi.GPIO`  
+`sudo apt-get install python3-pip python3-dev build-essential`  
+`sudo pip install RPi.GPIO`  
 - Config.txt bearbeiten:  
 `sudo nano /boot/config.txt`  
 Folgendes ergänzen:  
@@ -77,9 +77,7 @@ Folgendes ergänzen:
 `if [ "$_IP" ]; then`  
 `printf "My IP address is %s\n" "$_IP"` 
 `fi`  
-  
 *`sudo python3 /home/pi/rfidPlayer.py &`*  
-  
 `exit 0`
 - Datei ausführbar machen  
 `sudo chmod +x /etc/rc.local`
