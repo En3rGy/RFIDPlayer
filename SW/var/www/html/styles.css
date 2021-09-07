@@ -1,0 +1,151 @@
+<style type="text/css">
+
+page {
+
+}
+
+body {
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        background-color: beige;
+}
+
+section {
+        display:block;
+	margin: auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 12px;
+        background-color: white;
+}
+
+h1 {
+        color:forestgreen;
+	font: 24px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+        color:darkseagreen;
+	font: 18px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bold;
+}
+
+label{
+	margin:0 auto 3px auto;
+	padding:0px;
+	display:block;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bold;
+}
+
+#menu {
+        overflow: hidden;
+        /*width: 400px;*/
+        top: 0;
+        left: 0; 
+        right: 0;
+        position: fixed;
+	padding: 0px 16px;
+        /*margin: auto;
+        display: block;*/
+        background-color: darkolivegreen;
+	font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        text-align:center;
+}
+
+#menu div {
+        diplay: inline-block;
+        text-align:center;
+        width:400px;
+}
+
+#menu a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color:white;
+}
+
+#menu a:hover{
+        background-color: greenyellow;
+        color:black;
+}
+
+.last{
+        border-color:red;
+}
+
+fieldset {
+        margin: 0 auto 10px auto;
+        padding: 10px;
+        display:block;
+        font-weight: bold;
+}
+input[type=text], 
+input[type=date],
+input[type=datetime],
+input[type=number],
+input[type=search],
+input[type=time],
+input[type=url],
+input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+input[type=text]:focus, 
+input[type=date]:focus,
+input[type=datetime]:focus,
+input[type=number]:focus,
+input[type=search]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=email]:focus,
+textarea:focus, 
+select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.field-divided{
+	width: 49%;
+}
+
+.field-long{
+	width: 100%;
+}
+.field-select{
+	width: 100%;
+}
+.field-textarea{
+	height: 100px;
+}
+input[type=submit], 
+input[type=reset],
+input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+input[type=submit]:hover, 
+input[type=reset]:hover,
+input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+</style>

@@ -1,0 +1,35 @@
+{
+    "volume": "20",
+    "rfid": {
+        "176674790130": {
+            "album": "07: Reise in M\u00e4rchenland \/ Die Jagd nach dem Ei \/ Rettung im Schnee \/ Biber am Fluss",
+            "random": null
+        },
+        "306193389271": {
+            "album": "Kasperl und die Seppelfalle",
+            "random": null
+        },
+        "797890748960": {
+            "album": "Gloria Gl\u00fchw\u00fcrmchen. Gutenacht-H\u00f6rbuch",
+            "random": null
+        },
+        "729449079633": {
+            "album": "Die Star-Wars-Saga Fuer Kinder Erzaehlt - Episode 1-8",
+            "random": null
+        },
+        "864355132096": {
+            "album": "Lauras Stern Und Der Geheimnisvolle Drache Nian - Das Original H\u00f6rspiel Zum 2.Kinofilm",
+            "random": null
+        },
+        "39946915535": {
+            "album": "",
+            "random": null
+        },
+        "522113425961": {
+            "album": "Kasperl und der schlimme Unbekannte",
+            "random": null
+        }
+    },
+    "sonos_ip": "192.168.143.71",
+    "timeout": "6"
+}
